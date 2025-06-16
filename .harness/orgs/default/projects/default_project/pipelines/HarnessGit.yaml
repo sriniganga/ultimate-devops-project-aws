@@ -37,6 +37,6 @@ pipeline:
                     connectorRef: account.GitHarness1
                     repoName: ultimate-devops-project-aws
                     build:
-                      type: branch
+                      type: commitSha
                       spec:
-                        branch: main
+                        commitSha: First commit
